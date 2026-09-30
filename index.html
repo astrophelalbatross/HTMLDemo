@@ -19,13 +19,13 @@
  
    <a-box 
      position="0 1 -6" 
-     color="#0097A7"
+     color="#000000"
      height="15"
      width="5"> 
    </a-box> 
  
    <a-plane 
-     position="0 0 -4" 
+     position="0 -1 -4" 
      rotation="-90 0 0" 
      width="10" 
      height="10" 
@@ -34,7 +34,18 @@
  
    <a-sky color="#0097A7"></a-sky> 
  
-   <a-entity environment></a-entity>
+<a-entity 
+ environment="preset: forest;
+ groundColor: #1D261A;
+ dressingScale: 40;
+ lighting: point;
+ skyType: gradient;
+ skyColor: #FFF9C4;
+ horizonColor: #607D8B;
+ seed: 5;
+ dressingColor: #3D4939;
+ grid:none;">
+</a-entity>
 
  </a-scene> 
  
